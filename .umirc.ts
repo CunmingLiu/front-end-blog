@@ -1,5 +1,5 @@
 import { defineConfig } from 'umi';
-import { PROXY } from './src/utils/constants'
+import { PROXY } from './src/utils/constants';
 
 export default defineConfig({
   title: 'sellardoor',
@@ -31,5 +31,5 @@ export default defineConfig({
     'https://cdn.bootcdn.net/ajax/libs/react/16.12.0/umd/react.production.min.js',
     'https://cdn.bootcdn.net/ajax/libs/react-dom/16.12.0/umd/react-dom.production.min.js',
     'https://cdn.bootcdn.net/ajax/libs/marked/1.1.0/marked.min.js',
-  ]
+  ],
 });
